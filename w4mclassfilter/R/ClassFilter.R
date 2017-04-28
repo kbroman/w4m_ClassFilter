@@ -13,7 +13,7 @@ w4m_filter_imputation <-
 
 #' Filter W4M Samples by Class of Sample
 #'
-#' w4m_filter_by_sample_class - Filter set of retention-corrected W4M files (dataMatrix, sampleMetadata) by feature \code{\link{w4msampleclassfilter}}
+#' Filter set of retention-corrected W4M files (dataMatrix, sampleMetadata) by feature
 #'
 #' @param dataMatrix_in        character: path to input file containing data matrix (tsv, rows are feature names, columns are sample names
 #' @param sampleMetadata_in    character: path to input file containing sample metadata (tsv, rows are sample names, one column's name matches class_column)
@@ -30,7 +30,7 @@ w4m_filter_imputation <-
 #' @return logical: TRUE only if filtration succeeded
 #' 
 #' @author Art Eschenlauer, \email{esch0041@@umn.edu}
-#' @references \code{\link{w4msampleclassfilter}}
+## ' @references \code{\link{w4msampleclassfilter}}
 #' @concept w4m workflow4metabolomics
 #' @keywords multivariate
 ## ' @seealso \code{\link{https://github.com/HegemanLab/w4m_ClassFilter}}
