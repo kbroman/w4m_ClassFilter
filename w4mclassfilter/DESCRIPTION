@@ -1,0 +1,9 @@
+Package: w4mclassfilter
+Version: 0.1
+Date: 2014-08-27
+Title: W4M Class Filter
+Description: Filter Workflow4Metabolomics dataMatrix, sampleMetadata, and variableMetadata files by sample-class, imputing zero for NA values and eliminating zero-variance rows and columns from the data-matrix.
+Author: Arthur C Eschenlauer <esch0041@umn.edu>
+Maintainer: Arthur C Eschenlauer <esch0041@umn.edu>
+License: MIT + file LICENSE
+RoxygenNote: 6.0.1

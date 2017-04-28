@@ -1,0 +1,18 @@
+# ref: http://kbroman.org/pkg_primer
+
+# In R:
+
+install.packages("devtools")
+library(devtools)
+
+
+# now setwd to the package directory
+
+# make the documentation via ROxygen2
+document()
+
+# invoke build
+build()
+
+# and install
+install()
